@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Expence Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tittle">
+            <h2>Expence Tracker</h2>
+        </div>
+        <div class="trackerBody">
+            <div class="balanceDisplay">
+                <div class="balance">
+                    <h4>Your Balance</h4>
+                    <h3>&#8377 <span>0.00</span></h3>
+                </div>
+                <div class="incomeExpence">
+                    <div class="income">
+                        <h4>INCOME</h4>
+                        <h4 style="color: green;">&#8377 <span>0.00</span></h4>
+                    </div>
+                    <div class="expance">
+                        <h4>EXPANCE</h4>
+                        <h4 style="color: red;">&#8377 <span>0.00</span></h4>
+                    </div>
+                </div>
+                <div class="history">
+                    <h4>History</h4>
+                    <div class="historyList"></div>
+                </div>
+                <form name = "transaction">
+                    <h4>Add new transaction</h4>
+                    <div class="priceDes">
+                        <div class="textDiv">
+                            <h5>Text</h5>
+                            <input name = "textInput" type="text" placeholder="Enter Text">
+                        </div>
+                        <div class="amountDiv">
+                            <h5>Amount</h5>
+                            <p>(negative-expence,positive-income)</p>
+                            <input name="priceInput" type="number" placeholder="Enter Amount">
+                        </div>
+                        <button name = "submitBtn">Add transaction</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

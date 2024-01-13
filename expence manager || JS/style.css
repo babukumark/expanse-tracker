@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    font-family: 'Nunito',sans-serif;
+}
+body {
+    max-width: 1440px;
+    width: 100%;
+    display: flex; justify-content: center;
+    padding-top: 10px;
+}
+.container {
+    width: 35%;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tittle {
+    padding: 10px 0px;
+}
+.trackerBody {
+    width: 80%;
+}
+.balanceDisplay {
+    width: 100%;
+}
+.balance,
+.history,
+form[name ='transaction'],
+.textDiv,
+.amountDiv {
+    padding-bottom: 10px;
+}
+.history h4,
+form[name ='transaction'] h4 {
+    padding-bottom: 3px;
+}
+.incomeExpence {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.incomeExpence >* {
+    width: 50%;
+    text-align: center;
+}
+.income {
+    border-right: 2px solid rgb(172, 172, 172);
+}
+.history h4 {
+    border-bottom: 2px solid rgb(172, 172, 172);
+}
+form[name ='transaction'] {
+    width: 100%;
+}
+form[name='transaction'] h4 {
+    border-bottom: 1px solid rgb(172, 172, 172);
+    margin-bottom: 10px;
+}
+input[name = 'textInput'],
+input[name = 'priceInput'] {
+    width: 97%;
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    box-shadow: 2px 2px 2px rgb(143, 143, 143);
+    margin-top: 5px;
+}
+button[name = 'submitBtn'] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 0px;
+    background-color: rgb(159, 125, 192);
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.historyElementDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.delBtn {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(221, 221, 221);
+    color: rgb(221, 221, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delRed {
+    color: white;
+    background-color: red;
+}
+.historyElement {
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-right: 3px solid greenyellow;
+}
+
+.border {
+    border-right: 3px solid red;
+}
